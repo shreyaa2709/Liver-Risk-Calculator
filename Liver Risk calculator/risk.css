@@ -1,0 +1,85 @@
+              /* Base styling */
+              body {
+                font-family: sans-serif;
+                background-color: #f6fdf7;
+                color: #2c3e50;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+              }
+              
+              /* Liver image */
+              .liver-img {
+                width: 200px;
+                margin: 20px auto; 
+                display: block;    
+            }
+            
+              
+              /* Buttons */
+              button {
+                padding: 12px 24px;
+                font-size: 16px;
+                margin-top: 20px;
+                cursor: pointer;
+                background-color: #4caf50;
+                color: white;
+                border: none;
+                border-radius: 6px;
+              }
+              
+              /* Containers */
+              .quiz-container,
+              .start-screen,
+              .result-screen {
+                max-width: 600px;
+                margin: auto;
+                padding: 20px;
+              }
+              
+              /* Hide elements by default */
+              .hidden {
+                display: none;
+              }
+              
+              /* Progress bar */
+              .progress-bar {
+                height: 10px;
+                background: #ddd;
+                border-radius: 10px;
+                overflow: hidden;
+                margin-bottom: 20px;
+              }
+              
+              .progress {
+                height: 10px;
+                width: 0%;
+                background-color: #4caf50;
+                transition: width 0.3s;
+              }
+              
+              /* Question box */
+              .question-box {
+                background: white;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                padding: 20px;
+              }
+              
+              /* Options */
+              .option {
+                display: block;
+                background: #e8f5e9;
+                padding: 12px;
+                margin: 10px 0;
+                border-radius: 6px;
+                cursor: pointer;
+                transition: background-color 0.2s;
+              }
+              
+              .option:hover {
+                background-color: #c8e6c9;
+              }  
+
+
+  

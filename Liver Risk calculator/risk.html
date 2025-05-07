@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liver Health Calculator – Ayurvedic Edition</title>
+  <link rel="stylesheet" href="risk.css" />
+  <link rel="stylesheet" href="script.js"/>
+</head>
+<body>
+  <div class="start-screen">
+    <h1>🧪 Calculate Your Liver Risk</h1>
+    <img src="https://static.vecteezy.com/system/resources/previews/000/431/192/original/human-liver-on-red-background-vector.jpg" alt="Liver" class="liver-img" />
+    <button id="start-btn">Click Here to Calculate</button>
+  </div>
+
+  <div class="quiz-container hidden">
+    <div class="progress-bar">
+      <div class="progress" id="progress"></div>
+    </div>
+    <div class="question-box" id="question-box"></div>
+  </div>
+
+  <div class="result-screen hidden" id="result-screen">
+    <h2>Your Liver Health Score: <span id="score"></span>/100</h2>
+    <p id="interpretation"></p>
+    <button onclick="location.reload()">Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
